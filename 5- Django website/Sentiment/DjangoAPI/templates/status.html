@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<title>Results</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+div.exML1 {
+  margin-top: 200px;
+}
+</style>
+<body>
+<center>
+<div class="w3-container exML1">
+  <div class="w3-card-4" style="width:80%;">
+    <header class="w3-container w3-blue">
+      <h1>Results</h1>
+    </header>
+
+    <div class="w3-container">
+      <h2>Sentiment Result: {{data}}</h2>
+      <h3>Sentiment is {{pospred}}% positive.</h3>
+      <h3>Sentiment is {{negpred}}% negative.</h3>
+    </div>
+    <footer class="w3-container w3-blue">
+        Machine Learning Course, Fall 2021
+    </footer>
+  </div>
+</div>
+</center>
+</body>
+</html>
