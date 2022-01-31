@@ -9,6 +9,4 @@ Thus, we decided to implement a neural network from scratch but with our own wor
 layer part of the network (based on sentiment) which gave 79% accuracy.
 Lastly, we made a simple Django website for users to interactevly use the model. It also supports online 
 learning, where we ask the users to provide feedback for the prediction and retrain the model using new
-data every 
-
-# TwitterSentimentAnalysis
+data.
